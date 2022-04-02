@@ -1081,7 +1081,7 @@ button {
   .project__container,
   .contact__container,
   .footer__container {
-    grid-column: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .qualification__secsions {
@@ -1266,7 +1266,8 @@ button {
     bottom: -4.5rem;
   }
 
-  .contact {
+  .contact__form {
+    /* grid-template-columns: repeat(2, 1fr); */
     width: 460px;
   }
   .contact__inputs {
